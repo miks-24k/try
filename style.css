@@ -1,0 +1,1058 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+         url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brittany';
+    src: url('fonts/Brittany/BrittanySignature.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Protest Revolution';
+    src: url('fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('fonts/Anton/Anton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel Black';
+    src: url('fonts/CinzelDecorative-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-position: center;  
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    background-blend-mode: inherit;
+    color: black;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo-container img {
+    margin-right: 1rem; 
+}
+
+header nav .logo {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: 'Protest Revolution', sans-serif;
+    margin-top: 0.5rem;
+}
+
+header nav .logo .la {
+    font-family: 'Brittany', sans-serif;
+}
+
+header nav .links {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    margin: 0 1rem;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url("pic/pool_upscayl_4x_upscayl-standard-4x.png");
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-size: cover;  
+    background-position: center center;  
+    padding-top: 5%;
+}
+
+
+#hero h1 {
+    font-size: 10rem;
+    font-family: 'Protest Revolution', sans-serif;
+    margin-bottom: 0.25rem;
+}
+
+
+#hero h1 .la {
+    font-family: 'Brittany', sans-serif;
+    font-style: normal; 
+}
+
+#hero p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: -0.5rem;
+    font-size: large;
+}
+
+#about, #contact {
+    background-color: rgb(254, 226, 255);
+    margin: 7rem 7;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Anton', serif;
+}
+
+#contact p{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+#services {
+    background-color: #000000;
+    margin: 2rem 7;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Cinzel Black', sans-serif;
+    color: aliceblue;
+}
+
+#services .service-item {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Brittany', sans-serif;
+    font-size: 1.5rem;
+}
+
+#services img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: 5px solid rgb(182, 155, 212);
+}
+
+#services img:hover {
+    transform: scale(1.1);
+    border-color: rgb(238, 196, 255);
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.separators {
+    border-top: 2px solid #ffffff; 
+    margin: 50px 0px; 
+    
+}
+
+@media (max-width: 768px) {
+    header nav .logo-container {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    header nav .links {
+        justify-content: flex-end;
+    }
+
+    .hero {
+        height: 50vh; 
+    }
+}
+
+        @font-face {
+            font-family: 'Gruppo';
+            src: url('fonts/Gruppo-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Brittany';
+            src: url('fonts/Brittany/BrittanySignature.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Protest Revolution';
+            src: url('fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+                 url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Cinzel Decorative';
+            src: url('fonts/CinzelDecorative-Black.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Cinzel Regular';
+            src: url('fonts/CinzelDecorative-Regular.ttf') format('truetype');
+            font-weight: bolder;
+            font-style: oblique;
+        }
+
+        @font-face {
+            font-family: 'Anton';
+            src: url('fonts/Anton/Anton-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            background-image: url("pic/fine_upscayl_4x_upscayl-standard-4x.png");
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: #333;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 98%;
+            background-blend-mode: screen;
+            color: rgb(255, 255, 255);
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header nav .logo-container img {
+            margin-right: 1rem;
+            
+        }
+
+        header nav .logo {
+            font-size: 1.2rem;
+            color: #ffffff;
+            font-family: 'Protest Revolution', sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        header nav .logo .la {
+            font-family: 'Brittany', sans-serif;
+        }
+
+        header nav .links {
+            display: flex;
+            justify-content: flex-end; 
+        }
+
+        header nav a {
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 1rem;
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-size: cover; 
+            background-position: center center; 
+            height: 50vh; 
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            text-align: center;
+            
+        }
+
+        .hero h1 {
+            font-size: 5rem;
+            font-family: 'Cinzel Decorative', serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 2rem;
+        }
+
+        .content {
+            margin-top: -50px; 
+            z-index: 1;
+            color: white;
+            font-family: 'Gruppo', sans-serif;
+            font-size: 1.5rem;
+        }
+
+        .content p {
+            color: white;
+            font-family: 'Georgia', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        .separator {
+            border-top: 2px solid #ffffff; 
+            margin: 70px 0; 
+            
+        }
+
+        .separators {
+            border-top: 2px solid #ffffff; 
+            margin: 50px 0px; 
+            
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 2fr);
+            gap: 30px;
+        }
+
+        .fine {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .fine:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .fine img {
+            width: 500px;          
+            height: 400px;         
+            object-fit: cover;    
+        }
+
+        .fine h3 {
+            margin: 1rem;
+            font-size: 1.5rem;
+            color: #333;
+            font-family: 'Cinzel Regular', sans-serif;
+        }
+
+        .fine p {
+            margin: 0 1rem 1rem;
+            color: #000000;
+            font-family: 'Anton', sans-serif;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: 'Anton', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh; 
+            }
+        }
+    
+        @font-face {
+            font-family: 'Voga';
+            src: url('fonts/CDType\ -\ Voga\ Medium.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+                 url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Brittany';
+            src: url('fonts/Brittany/BrittanySignature.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Protest Revolution';
+            src: url('fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Anton';
+            src: url('fonts/Anton/Anton-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            background-image: url("pic/spa\ bg_upscayl_4x_upscayl-standard-4x.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 98%;
+            background-blend-mode: inherit;
+            color: rgb(255, 255, 255);
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            font-family: 'Playfair Display', sans-serif;
+            
+        }
+        
+        .separator {
+            border-top: 2px solid #ffffff; 
+            margin: 70px 0; 
+            
+        }
+
+        .separators {
+            border-top: 2px solid #ffffff; 
+            margin: 50px 0px; 
+            
+        }
+
+        .content {
+            margin-top: -50px; 
+            z-index: 1;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            
+        }
+
+        .content p {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header nav .logo-container img {
+            margin-right: 1rem;
+            
+        }
+
+        header nav .logo {
+            font-size: 1.2rem;
+            color: #ffffff;
+            font-family: 'Protest Revolution', sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        header nav .logo .la {
+            font-family: 'Brittany', sans-serif;
+        }
+
+        header nav .links {
+            display: flex;
+            justify-content: flex-end; 
+        }
+
+        header nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: solid;
+            margin: 0 1rem;
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+            
+        }
+
+        .hero {
+            height: 50vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .hero h1 {
+            font-size: 8rem;
+            font-family: 'Voga', sans-serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 2fr); 
+            gap: 30px; 
+        }
+
+        .service {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 0%;
+            display: flex;
+            flex-direction: column; 
+            height: 400px; 
+            
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        
+
+        .service img {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover;
+        }
+
+        .service h3 {
+            margin: 1rem;
+            font-size: 1.5rem;
+            color: #333;
+            font-family: 'Voga', sans-serif;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .service p {
+            margin: 0 1rem 1rem;
+            color: #555;
+            font-family: 'Playfair Display', sans-serif;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: 'Anton', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh; 
+            }
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+                 url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Brittany';
+            src: url('fonts/Brittany/BrittanySignature.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Anton';
+            src: url('fonts/Anton/Anton-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Protest Revolution';
+            src: url('fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Cinzel Bold';
+            src: url('fonts/CinzelDecorative-Bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Goku';
+            src: url('fonts/Goku.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Distillery';
+            src: url('fonts/distillery-strong.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        
+        body {
+            margin: 0;
+            background-image: url("pic/outdoor\ bg2_upscayl_4x_upscayl-standard-4x.png"); 
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            color: #333;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 98%;
+            background-blend-mode: color;
+            color: rgb(255, 255, 255);
+            padding: .5rem 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header nav .logo-container img {
+            margin-right: 1rem;
+            
+        }
+
+        header nav .logo {
+            font-size: 1.2rem;
+            color: #ffffff;
+            font-family: 'Protest Revolution', sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        header nav .logo .la {
+            font-family: 'Brittany', sans-serif;
+        }
+
+        header nav .links {
+            display: flex;
+            justify-content: flex-end; 
+        }
+
+        header nav a {
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-size: cover; 
+            background-position: center center; 
+            height: 50vh; 
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 6rem;
+            font-family: 'Distillery', sans-serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 30px;
+        }
+
+        .adventure {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .adventure:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .adventure img {
+            width: 100%;  
+            height: 400px; 
+            object-fit: cover;  
+        }
+
+        .adventure h3 {
+            margin: 1rem;
+            font-size: 1.5rem;
+            color: #000000;
+            font-family: 'Cinzel Bold', sans-serif;
+            font-weight: bold;
+        }
+
+        .separator {
+            border-top: 2px solid #ffffff; 
+            margin: 70px 0px; 
+            
+        }
+
+        .separators {
+            border-top: 2px solid #ffffff; 
+            margin: 50px 0px; 
+            
+        }
+
+        .adventure p {
+            margin: 0 1rem 1rem;
+            color: #000000;
+            font-family: 'Playfair Display', sans-serif;
+
+        }
+
+        .content {
+            margin-top: -50px; 
+            z-index: 1;
+            color: rgb(255, 255, 255);
+            font-family: 'Goku', sans-serif;
+            font-size: 1.3rem;
+        }
+
+        .content p {
+            color: rgb(255, 255, 255);
+            font-family: 'Playfair Display', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: 'Anton', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh; 
+            }
+        }
+
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+                 url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Anton';
+            src: url('fonts/Anton/Anton-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Brittany';
+            src: url('fonts/Brittany/BrittanySignature.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Protest Revolution';
+            src: url('fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Sanford';
+            src: url('fonts/Sanford-0103_demo.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Cannia';
+            src: url('fonts/Cannia.otf') format('truetype');
+            font-weight: bolder;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("pic/luxury\ bg_upscayl_4x_upscayl-standard-4x.png"); 
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            color: #333;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 98%;
+            background-blend-mode: color;
+            color: black;
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        .content {
+            margin-top: -50px; 
+            z-index: 1;
+            color: rgb(0, 0, 0);
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            font-size: 1.3rem;
+        }
+
+        .content p {
+            color: rgb(0, 0, 0);
+            font-family: 'Playfair Display';
+            font-size: 1.1rem;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        header nav .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header nav .logo-container img {
+            margin-right: 1rem;
+            
+        }
+
+        header nav .logo {
+            font-size: 1.2rem;
+            color: #000000;
+            font-family: 'Protest Revolution', sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        header nav .logo .la {
+            font-family: 'Brittany', sans-serif;
+        }
+
+        header nav .links {
+            display: flex;
+            justify-content: flex-end; 
+        }
+
+        header nav a {
+            color:rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-size: cover; 
+            background-position: center center;
+            height: 50vh; 
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .hero h1 {
+            font-size: 6rem;
+            font-family: 'Cannia', sans-serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 2fr);
+            gap: 30px;
+        }
+
+        .accommodation {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .accommodation:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .accommodation img {
+            width: 500px;          
+            height: 500px;         
+            object-fit: cover;    
+        }
+
+        .separator {
+            border-top: 2px solid #000000; 
+            margin: 70px 0; 
+        }
+
+        .separators {
+            border-top: 2px solid #000000; 
+            margin: 50px 0px; 
+        }
+
+        .accommodation h3 {
+            margin: 1rem;
+            font-size: 1.5rem;
+            color: #000000;
+            font-family: 'Sanford', serif;
+        }
+
+        .accommodation p {
+            margin: 0 1rem 1rem;
+            color: #000000;
+            font-family: Georgia, serif;
+            font-weight: bolder;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-family: 'Anton';
+        }
+
+         @media (max-width: 768px) {
+        .hero {
+             height: 50vh; 
+             }
+        }        
